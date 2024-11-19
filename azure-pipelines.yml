@@ -13,7 +13,7 @@ steps:
 - task: Maven@3
   inputs:
     goals: 'clean test'  # Ejecuta las pruebas de Maven/TestNG
-    mavenPomFile: 'TestNGtest/pom.xml'
+    mavenPomFile: 'pom.xml'
     options: '-DskipTests=false'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
