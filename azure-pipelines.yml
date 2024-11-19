@@ -1,10 +1,5 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- main
+- master
 
 pool:
   vmImage: ubuntu-latest
@@ -12,10 +7,17 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    goals: 'clean test'  # Ejecuta las pruebas de Maven/TestNG
-    mavenPomFile: 'pom.xml'
+    goals: 'clean test'
+    mavenPomFile: 'TestNGEjercicio/pom.xml'
     options: '-DskipTests=false'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     mavenVersionOption: 'Default'
+    publishJUnitResults: true
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFiles: '**/surefire-reports/*.xml'
+    testRunTitle: 'Resultados de pruebas TestNG'
+
 
