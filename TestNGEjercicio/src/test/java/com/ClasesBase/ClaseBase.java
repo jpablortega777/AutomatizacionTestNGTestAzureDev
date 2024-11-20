@@ -42,7 +42,8 @@ public class ClaseBase {
 		chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 		
 		//SETEAR LAS PROPIEDADES DEL NAVEGADOR
-		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		driver = new ChromeDriver();
 		
 		//MIXIMIZAR EL NAVEGADOR 
