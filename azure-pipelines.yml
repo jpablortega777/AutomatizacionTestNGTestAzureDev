@@ -17,7 +17,7 @@ steps:
 
 - task: PublishTestResults@2
   inputs:
-    testResultsFiles: '**/surefire-reports/*.xml'
+    testResultsFiles: '/target/surefire-reports/TEST-*.xml'
     testRunTitle: 'Resultados de pruebas TestNG'
 
 
