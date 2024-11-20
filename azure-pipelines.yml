@@ -17,7 +17,12 @@ steps:
 
 - task: PublishTestResults@2
   inputs:
-    testResultsFiles: '/target/surefire-reports/TEST-*.xml'
+    testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
     testRunTitle: 'Resultados de pruebas TestNG'
+
+- script: |
+    sudo apt-get update
+    sudo apt-get install -y chromium-browser chromium-chromedriver
+  displayName: 'Instalar Chrome y ChromeDriver'
 
 
