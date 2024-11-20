@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="48752" started-at="2024-11-19T23:36:13 COT" finished-at="2024-11-19T23:37:02 COT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="48752" started-at="2024-11-19T23:36:13 COT" finished-at="2024-11-19T23:37:02 COT">
+      <class name="com.testNG.RunTestNG">
+        <test-method status="PASS" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testNG.RunTestNG@569cfc36]" name="beforeClass" is-config="true" duration-ms="5947" started-at="2024-11-19T23:36:13 COT" finished-at="2024-11-19T23:36:19 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="mercadolibreTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testNG.RunTestNG@569cfc36]" name="mercadolibreTestNG" duration-ms="5" started-at="2024-11-19T23:36:22 COT" data-provider="mercadolibre" finished-at="2024-11-19T23:36:22 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tequila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.co/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[juan777@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Off]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Juan Ortega C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercadolibreTestNG -->
+        <test-method status="PASS" signature="mercadolibreCrearCuentaTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.testNG.RunTestNG@569cfc36]" name="mercadolibreCrearCuentaTestNG" duration-ms="1" started-at="2024-11-19T23:36:22 COT" data-provider="mercadolibreCrearCuenta" finished-at="2024-11-19T23:36:22 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.co/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[juan777@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Off]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Juan Ortega C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercadolibreCrearCuentaTestNG -->
+        <test-method status="PASS" signature="mercurytoursTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testNG.RunTestNG@569cfc36]" name="mercurytoursTestNG" duration-ms="36791" started-at="2024-11-19T23:36:22 COT" data-provider="mercurytours" finished-at="2024-11-19T23:36:59 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ortega]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3007788909]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[juanortega@evertecinc.co]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[calle 52b sur #87-78]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bogota]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bogota]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90908]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[SERBIA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jpablo]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[https://demo.guru99.com/selenium/newtours/register.php]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[On]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Juan Ortega C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mercurytoursTestNG -->
+        <test-method status="PASS" signature="ToolsQAAlertsTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testNG.RunTestNG@569cfc36]" name="ToolsQAAlertsTestNG" duration-ms="0" started-at="2024-11-19T23:36:59 COT" data-provider="toolsqaAlerts" finished-at="2024-11-19T23:36:59 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[automatizacion]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Off]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Juan Ortega C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToolsQAAlertsTestNG -->
+        <test-method status="PASS" signature="ToolsQAWidgetsTestNG(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.testNG.RunTestNG@569cfc36]" name="ToolsQAWidgetsTestNG" duration-ms="1" started-at="2024-11-19T23:36:59 COT" data-provider="toolsqaWidgets" finished-at="2024-11-19T23:36:59 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[juan777@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Si]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Off]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Juan Ortega C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToolsQAWidgetsTestNG -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testNG.RunTestNG@569cfc36]" name="afterClass" is-config="true" duration-ms="2686" started-at="2024-11-19T23:36:59 COT" finished-at="2024-11-19T23:37:02 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testNG.RunTestNG -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
